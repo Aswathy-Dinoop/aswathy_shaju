@@ -1,0 +1,892 @@
+<!--========================================================= 
+Item Name: Masterly - Personal Portfolio One Page HTML Template.
+Author: ashishmaraviya
+Version: 2
+Copyright 2023
+Author URI: https://themeforest.net/user/ashishmaraviya
+============================================================-->
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <title>Aswathy Shaju - Developer</title>
+    <meta name="keywords"
+        content="personal portfolio, cv, resume, agency, bootstrap, clean, cv, designer, developer, freelancer, modern, one page portfolio, onepage, personal portfolio, responsive, resume, vcard">
+    <meta name="description" content="Unique Personal Portfolio HTML Template">
+    <meta name="author" content="ashishmaraviya">
+    <meta name="generator" content="Mobirise v3.12.1, mobirise.com">
+    <!-- site Favicon -->
+    <link rel="icon" href="{% static 'assets/img/favicon/favicon.png' %}" sizes="32x32">
+    <link rel="apple-touch-icon" href="{% static 'assets/img/favicon/favicon.png' %}">
+    <meta name="msapplication-TileImage" content="{% static 'assets/img/favicon/favicon.png' %}">
+
+    <!-- css Font -->
+
+    <!-- css All Plugins Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/jquery.fancybox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/slick.min.css' %}">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="ms-overlay">
+        <div class="ms-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Header Start -->
+    <header>
+        <nav>
+            <a href="javascript:void(0)" class="ms-sidebar-toggle"><img src="{% static 'assets/img/icons/menu.svg' %}" class="svg_img"
+                    alt="menu"></a>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Sidebar Start -->
+    <div class="ms-sidebar-overlay"></div>
+    <div class="ms-sidebar">
+        <div class="menu-list">
+            <a href="javascript:void(0)" class="close-sidebar">×</a>
+            <ul class="navbar-nav mb-2 ml-auto" id="top-menu">
+                <li class="nav-item active">
+                    <a class="nav-link ms-nav" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-nav" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-nav" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-nav" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-nav" href="#portfolio">Portfolio</a>
+                </li>
+                {% comment %} <li class="nav-item">
+                    <a class="nav-link ms-nav" href="#news">News</a>
+                </li> {% endcomment %}
+                {% comment %} <li class="nav-item">
+                    <a class="nav-link ms-nav" href="#contact">Contacts</a>
+                </li> {% endcomment %}
+            </ul>
+        </div>
+    </div>
+    <!-- Sidebar End -->
+
+    <!-- Hero Start -->
+    <section id="home" class="ms-hero margin-b-50">
+        <div class="ms-diamond-1"></div>
+        <div class="ms-diamond-2"></div>
+        <div class="ms-diamond-3"></div>
+        <div class="ms-diamond-4"></div>
+        <div class="ms-diamond-5"></div>
+        <div class="ms-diamond-6"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-item static">
+                    <div class="ms-hero-detail">
+                        <h2 class="ms-hero-title title-right-overflow"><span>Hello, I am<br> <span
+                                    class="name">&nbsp; Aswathy Shaju</span></span>
+                        </h2>
+                        {% comment %} <h2 class="ms-hero-title title-right-overflow"><span>Hello, <br> I am<br> <span
+                                    class="name">&nbsp; Aswathy Shaju</span></span>
+                        </h2> {% endcomment %}
+                        <p class="ms-hero-detail" style="justify-content: center;">Hi! I'm a Python Developer with 3+ years of experience building scalable web apps using Django. I specialize in backend development, API integration, and workflow automation, with a strong focus on clean, efficient code and practical solutions.</p>
+                         <a href="{% static 'assets/Aswathy_Shaju_Python_Developer.pdf' %}" class="ms-learn-more-right">
+                            <span class="text">Download CV</span>
+                        </a> 
+                    </div>
+                    <div class="ms-hero-img">
+                        <div class="ms-card" data-tilt>
+                            {% comment %} <img src="{% static 'assets/img/Aswathy.jpg' %}" alt="" style="height: 350px;"> {% endcomment %}
+                        </div> 
+                    </div>
+                    <div class="ms-hero-name">
+                        <h3><span>Python Developer</span></h3>
+                    </div>
+                </div>
+                <div class="art"></div>
+            </div>
+        </div>
+        <div class="scroll-next" data-scroll="about">
+            <div class="ms-container">
+                <span class="menu">
+                    <span class="text"></span>
+                    <span class="circle"></span>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About section -->
+    <section id="about" class="ms-about padding-tb-80 sec-bg">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>About<span> Me</span></h2>
+                    <span class="ligh-title">About</span> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="ms-about-detail m-b-991">
+                        <h4>Creativity bleeds from the pen of inspiration.</h4>
+                        <div style="text-align: justify;">
+
+  <p>
+    Hi, I'm <strong>Aswahy Shaju</strong>, a passionate Python developer with a strong focus on building efficient, scalable, and user-friendly web applications. I specialize in backend development using Django, and I enjoy turning complex problems into clean, maintainable code.
+  </p>
+  <p>
+    With a solid foundation in software development and a continuous drive to learn new technologies, I aim to create solutions that not only meet business needs but also enhance user experiences. Whether it's developing robust APIs, managing databases, or deploying web applications, I take pride in delivering quality work that makes an impact.
+  </p>
+  <p>
+    Let’s build something amazing together!
+  </p>
+</div>
+                        {% comment %} <p class="ms-text">Hi, I'm Aswahy Shaju, a passionate Python developer with a strong focus on building efficient, scalable, and user-friendly web applications. I specialize in backend development using Django, and I enjoy turning complex problems into clean, maintainable code.</p>
+                        <p class="ms-text" style="justify-content: center;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            With a solid foundation in software development and a continuous drive to learn new technologies, I aim to create solutions that not only meet business needs but also enhance user experiences. Whether it's developing robust APIs, managing databases, or deploying web applications, I take pride in delivering quality work that makes an impact.</p> {% endcomment %}
+                        <div class="ms-about-info">
+                            <ul class="m-r-30">
+                                <li><span class="title">Full Name<b>:</b></span>Aswathy Shaju</li>
+                                <li><span class="title">Age<b>:</b></span>26 Years</li>
+                                <li><span class="title">Language<b>:</b></span>English, Malayalam</li>
+                                <li><span class="title">Phone No<b>:</b></span>+91 811 399 4246 </li>
+                                <li><span class="title">Email<b>:</b></span>aswathyshaju98@gmail.com</li>
+                                <li><span class="title">Country<b>:</b></span><span>Kerala,India
+                                        </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ms-skill-progress">
+                        <div class="row m-b-minus-30px">
+                            <div class="col-md-6">
+                                <div class="ms-box">
+                                    <svg class="progress noselect" data-progress="100" x="0px" y="0px"
+                                        viewBox="0 0 80 80">
+                                        <path class="track" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <path class="fill" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <text class="value" x="50%" y="58%">0%</text>
+                                    </svg>
+                                    <h3>Python-Django</h3>
+                                    {% comment %} <p>Lorem Ipsum is simply dummy text of the printing.</p> {% endcomment %}
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ms-box">
+                                    <svg class="progress noselect" data-progress="97" x="0px" y="0px"
+                                        viewBox="0 0 80 80">
+                                        <path class="track" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <path class="fill" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <text class="value" x="50%" y="58%">0%</text>
+                                    </svg>
+                                    <h3>HTML CSS JS</h3>
+                                    {% comment %} <p>Lorem Ipsum is simply dummy text of the printing.</p> {% endcomment %}
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ms-box">
+                                    <svg class="progress active noselect" data-progress="90" x="0px" y="0px"
+                                        viewBox="0 0 80 80">
+                                        <path class="track" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <path class="fill" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <text class="value" x="50%" y="58%">0%</text>
+                                    </svg>
+                                    <h3>MYSQL POSTGRE SQL</h3>
+                                    {% comment %} <p>Lorem Ipsum is simply dummy text of the printing.</p> {% endcomment %}
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ms-box">
+                                    <svg class="progress noselect" data-progress="95" x="0px" y="0px"
+                                        viewBox="0 0 80 80">
+                                        <path class="track" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <path class="fill" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+                                        <text class="value" x="50%" y="58%">0%</text>
+                                    </svg>
+                                    <h3>Git</h3>
+                                    {% comment %} <p>Lorem Ipsum is simply dummy text of the printing.</p> {% endcomment %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section End -->
+
+    <!-- Start Experience & Education section -->
+    <section id="experience" class="ms-experience padding-tb-80">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Resume</span></h2>
+                    <span class="ligh-title">Achievements</span>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="education ms-ex-box m-b-991">
+                        <h4>Education</h4>
+                        <ul class="timeline">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="timeline-info">
+                                    <span> 2021 - 2017</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">B.Tech In Electronics & Communication Engineering<span class="sub">- First
+                                            Class</span></h5>
+                                    <p>
+            Studied at Viswajyothi College of Engineering and Technology, Vazhakulam, in the stream of Electronics & Communication Engineering (ECE) during the academic period 2017 to 2021.
+            </p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                                <div class="timeline-info">
+                                    <span> 2017 - 2015</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">HSS<span class="sub">- 87%
+                                            </span></h5>
+                                    <p>
+                Completed my Higher Secondary education at SNDP HSS Muvattupuzha during the academic years 2015 to 2017, securing 87%.
+                    </p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-info">
+                                    <span> 2015 - 2014</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">SSLC<span class="sub">- 96%</span></h5>
+                                    <p>
+                Completed my High School education at St Sebastian High School Anicadu during the academic years 2014 to 2015, securing 96%.
+                    </p>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="experiense ms-ex-box">
+                        <h4>Experience</h4>
+                        <ul class="timeline">
+                            <li class="timeline-item">
+                                <div class="timeline-info">
+                                    <span>April 2025 - Present</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Stepz Innovation Muvattupuzha<span class="sub">- Python Developer</span></h5>
+                                     <p>
+                Working as a Python Developer, focusing on designing and developing web applications using Django. My responsibilities include writing clean, efficient backend code, integrating APIs, managing databases, and contributing to innovative software solutions that meet client requirements.
+                </p>
+                                </div>
+                            </li>
+                            <li class="timeline-item">
+                                <div class="timeline-info">
+                                    <span>September 2022- April 2025</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Dishasoft Info Solutions Pvt Ltd Muvattupuzha
+                                        <span class="sub">- Python Developer</span>
+                                    </h5>
+                                    <p>
+                    As a Python Developer, I was involved in developing and maintaining web-based applications using Django. My work included building secure and scalable backend systems, integrating third-party services and APIs, and participating in the full software development life cycle. I also contributed to debugging, performance tuning, and deploying projects, ensuring seamless delivery and client satisfaction.
+                    </p>
+                                </div>
+                            </li>
+                            <li class="timeline-item">
+                                <div class="timeline-info">
+                                    <span>February 2022 - September 2022</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="timeline-title">Infox Technologies Kochi<span class="sub">- Jr. Python Developer</span>
+                                    </h5>
+                                     <p>
+                            Started my professional journey as a Junior Python Developer, where I gained hands-on experience in web development using Django. Assisted in developing modules for client projects, writing clean and reusable code, and performing basic database operations. This role helped me build a strong foundation in backend development, version control, and collaborative coding practices.
+                        </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Experience & Education Section -->
+
+    <!-- Start service section -->
+    <section id="service" class="ms-service padding-tb-80 sec-bg">
+        <div class="container">
+        <div class="section-title">
+            <h2>My <span>Services</span></h2>
+            <span class="ligh-title">Services</span>
+        </div>
+        <div class="row service-box m-tb-minus-15px">
+
+            <!-- Web Application Development -->
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <div class="flipper">
+                    <div class="main-box">
+                        <div class="box-front height-300 white-bg">
+                            <div class="content-wrap">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/service/1.svg' %}" alt="Web Development" class="svg_img">
+                                </div>
+                                <h3>Web Development</h3>
+                                <p>Building dynamic, scalable, and secure web applications using Django & Python.</p>
+                            </div>
+                        </div>
+                        <div class="box-back height-300 gradient-bg">
+                            <div class="content-wrap">
+                                <h3>Web Development</h3>
+                                <p>From custom backend logic to frontend integration, I develop end-to-end solutions tailored to your business needs.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- API Development -->
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <div class="flipper">
+                    <div class="main-box">
+                        <div class="box-front height-300 white-bg">
+                            <div class="content-wrap">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/service/2.svg' %}" alt="API Integration" class="svg_img">
+                                </div>
+                                <h3>API Development</h3>
+                                <p>RESTful API development for seamless integration across platforms and services.</p>
+                            </div>
+                        </div>
+                        <div class="box-back height-300 gradient-bg">
+                            <div class="content-wrap">
+                                <h3>API Development</h3>
+                                <p>I create robust APIs to ensure smooth communication between frontend apps, third-party services, and mobile apps.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Database Design -->
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <div class="flipper">
+                    <div class="main-box">
+                        <div class="box-front height-300 white-bg">
+                            <div class="content-wrap">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/service/3.svg' %}" alt="Database" class="svg_img">
+                                </div>
+                                <h3>Database Design</h3>
+                                <p>Efficient database schemas and management using PostgreSQL and SQLite.</p>
+                            </div>
+                        </div>
+                        <div class="box-back height-300 gradient-bg">
+                            <div class="content-wrap">
+                                <h3>Database Design</h3>
+                                <p>I design clean and optimized databases to ensure data integrity, speed, and scalability in every project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Responsive UI Integration -->
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <div class="flipper">
+                    <div class="main-box">
+                        <div class="box-front height-300 white-bg">
+                            <div class="content-wrap">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/service/4.svg' %}" alt="Responsive Design" class="svg_img">
+                                </div>
+                                <h3>Responsive UI</h3>
+                                <p>Pixel-perfect frontend integration using HTML, CSS, JavaScript, and Bootstrap.</p>
+                            </div>
+                        </div>
+                        <div class="box-back height-300 gradient-bg">
+                            <div class="content-wrap">
+                                <h3>Responsive UI</h3>
+                                <p>I bring interfaces to life by integrating clean and responsive UI designs for all screen sizes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- End service section -->
+
+    <!-- Start Portfolio Section -->
+    <section id="portfolio" class="ms-portfolio padding-tb-80">
+        <div class="container">
+            <div class="section-title">
+                <h2>My <span>Projects</span></h2>
+                <span class="ligh-title">Portfolio</span>
+            </div>
+            <div class="row m-b-minus-24px">
+                <div class="portfolio-content">
+                    <div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="portfolio-tabs">
+                                    <ul>
+                                        {% comment %} <li class="filter" data-filter="all">ALL</li>
+                                        <li class="filter" data-filter=".design">DESIGN</li>
+                                        <li class="filter" data-filter=".development">DEVELOPMENT</li>
+                                        <li class="filter" data-filter=".graphics">GRAPHICS</li>
+                                        <li class="filter" data-filter=".templates">Templates</li> {% endcomment %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="portfolio-content-items">
+                                    <div class="row m-b-minus-30px">
+                                        <div class="col-lg-6 mix graphics templates">
+                                            <div class="ms-project-box">
+                                                <h3>Dishasoft Info Solutions </h3>
+                                                
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. It has been the industry's standard ever since the 1500s.
+                                                    
+                                                </p>
+                                                <div class="ms-info">
+                                                    <div class="portfolio-img">
+                                                        <a class="" data-fancybox="gallery"
+                                                            href="{% static 'assets/img/portfolio/1a.png' %}"
+                                                            style="background-image: url({% static 'assets/img/portfolio/1a.png' %})">
+                                                            <span class="overlay">+</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ms-detail">
+                                                        <ul>
+                                                           
+                                                            
+                                                            <li>Tech : Python Django MySQl</li>
+                                                            <li>Type : Software</li>
+                                                            <li>URL : <a href="https://www.dishasoft.com/" target="_blank">www.dishasoft.com</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix design">
+                                            <div class="ms-project-box">
+                                                <h3>Stepz Innovation </h3>
+                                                
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. It has been the industry's standard ever since the 1500s.
+                                                    
+                                                </p>
+                                                <div class="ms-info">
+                                                    <div class="portfolio-img">
+                                                        <a class="" data-fancybox="gallery"
+                                                            href="{% static 'assets/img/portfolio/4a.png' %}"
+                                                            style="background-image: url({% static 'assets/img/portfolio/4a.png' %})">
+                                                            <span class="overlay">+</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ms-detail">
+                                                        <ul>
+                                                            
+                                                             <li>Tech : Python Django MySQl</li>
+                                                            <li>Type : Software</li>
+                                                            <li>URL : <a href="https://www.stepzinnovation.com/" target="_blank">www.stepzinnovation.com</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix design">
+                                            <div class="ms-project-box">
+                                                <h3>Stepz Academy</h3>
+                                                
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. It has been the industry's standard ever since the 1500s.
+                                                    
+                                                </p>
+                                                <div class="ms-info">
+                                                    <div class="portfolio-img">
+                                                        <a class="" data-fancybox="gallery"
+                                                            href="{% static 'assets/img/portfolio/3a.png' %}"
+                                                            style="background-image: url({% static 'assets/img/portfolio/3a.png' %})">
+                                                            <span class="overlay">+</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ms-detail">
+                                                        <ul>
+                                                             <li>Tech : Python Django MySQl</li>
+                                                            <li>Type : Academy</li>
+                                                            <li>URL : <a href="https://www.stepzacademy.com/" target="_blank">www.stepzacademy.com</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix development">
+                                            <div class="ms-project-box">
+                                                <h3>NMA - Organization</h3>
+                                                
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. It has been the industry's standard ever since the 1500s.
+                                                    
+                                                </p>
+                                                <div class="ms-info">
+                                                    <div class="portfolio-img">
+                                                        <a class="" data-fancybox="gallery"
+                                                            href="{% static 'assets/img/portfolio/2a.png' %}"
+                                                            style="background-image: url({% static 'assets/img/portfolio/2a.png' %})">
+                                                            <span class="overlay">+</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ms-detail">
+                                                        <ul>
+                                                             <li>Tech : Python Django MySQl</li>
+                                                            <li>Type : Organization</li>
+                                                            <li>URL : <a href="https://www.nmanz.org/" target="_blank">www.nmanz.org</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix templates design">
+                                            <div class="ms-project-box">
+                                                <h3>Autofit Automotive</h3>
+                                                
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. It has been the industry's standard ever since the 1500s.
+                                                    
+                                                </p>
+                                                <div class="ms-info">
+                                                    <div class="portfolio-img">
+                                                        {% comment %} <a class="" data-fancybox="gallery"
+                                                            href="{% static 'assets/img/portfolio/5.jpg' %}"
+                                                            style="background-image: url(assets/img/portfolio/55.jpg)">
+                                                            <span class="overlay">+</span>
+                                                        </a> {% endcomment %}
+                                                    </div>
+                                                    <div class="ms-detail">
+                                                        <ul>
+                                                             <li>Tech : Python Django MySQl</li>
+                                                            <li>Type : Dashboard for Garage</li>
+                                                            {% comment %} <li>URL : <a href="https://www.dishasoft.com/" target="_blank">www.au.com</a></li> {% endcomment %}
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% comment %} <div class="col-lg-6 mix development graphics">
+                                            <div class="ms-project-box">
+                                                <h3>Shoply - The big market</h3>
+                                                <div class="links">
+                                                    <a href="">Development</a> |
+                                                    <a href="">Graphics</a>
+                                                </div>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. It has been the industry's standard ever since the 1500s.
+                                                    <a href="">Read more</a>
+                                                </p>
+                                                <div class="ms-info">
+                                                    <div class="portfolio-img">
+                                                        <a class="" data-fancybox="gallery"
+                                                            href="{% static 'assets/img/portfolio/6.jpg' %}"
+                                                            style="background-image: url(assets/img/portfolio/66.jpg)">
+                                                            <span class="overlay">+</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ms-detail">
+                                                        <ul>
+                                                            <li>Date : 8, May - 2020</li>
+                                                            <li>Client : Babu Rao</li>
+                                                            <li>Tech : Android</li>
+                                                            <li>Type : eCommerce</li>
+                                                            <li>URL : <a href="#">www.your-project-url.com</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> {% endcomment %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    
+
+    <!-- Start Contact Section -->
+    {% comment %} <section id="contact" class="ms-contact padding-tb-80 sec-bg">
+        <div class="container d-block">
+            <div class="section-title">
+                <h2>Get in <span>Touch</span></h2>
+                <span class="ligh-title">Contact</span>
+            </div>
+            <div class="row m-b-minus-30px">
+                <div class="col-lg-5 col-md-12 m-b-991-20">
+                    <div class="ms-box">
+                        <div class="detail">
+                            <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                            <div class="info">
+                                <h3 class="title">Mail & Website</h3>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; mail.example@gmail.com
+                                </p>
+                                <p>
+                                    <i class="fa fa-globe" aria-hidden="true"></i> &nbsp; www.yourdomain.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                    <div class="ms-box">
+                        <div class="detail">
+                            <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                            <div class="info">
+                                <h3 class="title">Contact</h3>
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; (+91)-9876XXXXX
+                                </p>
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; (+91)-987654XXXX
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                    <div class="ms-box">
+                        <div class="detail">
+                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="info">
+                                <h3 class="title">Address</h3>
+                                <p>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Ruami Mello Moraes Filho,
+                                    987 - Salvador - MA, 40352, Brazil.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                    <!-- /Boxes de Acoes -->
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="fname" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="umail" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="ms-learn-more-right"><span class="text">Submit</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> {% endcomment %}
+    <!-- End Contact Section -->
+
+    {% comment %} <!-- Start Clients Section -->
+    <section class="ms-client padding-tb-80">
+        <h2 class="d-none">Clients</h2>
+        <div class="container">
+            <div class="row">
+                <div class="ms-client-outer">
+                    <ul id="ms-client-slider">
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/1.jpg' %}"></a></div>
+                        </li>
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/2.jpg' %}"></a></div>
+                        </li>
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/3.jpg' %}"></a></div>
+                        </li>
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/4.jpg' %}"></a></div>
+                        </li>
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/5.jpg' %}"></a></div>
+                        </li>
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/6.jpg' %}"></a></div>
+                        </li>
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/7.jpg' %}"></a></div>
+                        </li>
+                        <li class="ms-client-item" data-animation="zoomIn">
+                            <div class="ms-client-img"><a href="#"><img alt="client" title="client"
+                                        src="{% static 'assets/img/clients/8.jpg' %}"></a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> {% endcomment %}
+    <!-- End Clients Section -->
+
+    <!-- Start Footer -->
+    <footer class="margin-t-80">
+        <div class="container">
+            <div class="ms-footer-detail">
+                <div class="ms-copy">
+                    {% comment %} Copyright © <a class="site-name" href="">Masterly</a> all rights reserved. Powered by
+                    Masterly {% endcomment %}
+                </div>
+                <div class="ms-social">
+                    {% comment %} <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a></li>
+                    </ul> {% endcomment %}
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+     <style>
+        .whatsapp-button {
+            position: fixed;
+            bottom: 60px;
+            right: 13px;
+            z-index: 99;
+            background-color: #25d366;
+            border-radius: 50px;
+            color: #ffffff;
+            text-decoration: none;
+            width: 50px;
+            height: 50px;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            -webkit-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+            -moz-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+            box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+            animation: effect 5s infinite ease-in;
+        }
+    </style>
+    <a href="https://wa.me/918113994246?text=Share%20me%20your%20latest%20resume."
+       target="_blank" class="whatsapp-button"><i
+        class="fab fa-whatsapp"></i></a>
+    {% comment %} <a target="_blank" href="https://api.whatsapp.com/send?phone=8113994246" class="whatsapp-button"><i
+        class="fab fa-whatsapp"></i></a> {% endcomment %}
+
+ {% comment %} <!-- Whatsapp -->
+<div class="ms-style ms-right-bottom">
+    <!-- Start Floating Panel Container -->
+    <div class="ms-panel">
+        <div class="ms-header">
+            <!-- Optional header content -->
+        </div>
+        <div class="ms-body">
+            <!-- Optional contact list -->
+        </div>
+    </div>
+    <!--/ End Floating Panel Container -->
+
+    <!-- Start Right Floating Button-->
+    <div class="ms-right-bottom">
+        <div class="ms-box">
+            <a class="ms-list"
+               href="https://wa.me/918113994246?text=Share%20me%20your%20latest%20resume,%20HR%20from%20masterly..."
+               target="_blank"
+               style="text-decoration: none;">
+                <div class="ms-button rotateBackward">
+                    <i class="fa fa-whatsapp"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--/ End Right Floating Button-->
+</div>
+<!-- Whatsapp end --> {% endcomment %}
+
+    <!-- Back to top -->
+    <div class="progress-wrap">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Back to top -->
+
+    <!-- Vendor JS -->
+    <script src="{% static 'assets/js/vendor/jquery-3.1.1.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/tilt.jquery.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/mixitup.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/jquery.fancybox.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/slick.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/fontawesome.js' %}"></script>
+
+    <!-- Scroll button animation for mouse hover Js -->
+    <script src="{% static 'assets/js/vendor/tweenmax.min.js' %}"></script>
+
+    <!-- Site Main Js -->
+    <script src="{% static 'assets/js/script.js' %}"></script>
+
+</body>
+
+</html>
